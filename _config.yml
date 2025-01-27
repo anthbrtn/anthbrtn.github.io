@@ -11,8 +11,8 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Anthony Burton
-author-bio: "I’m a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute, working on my dissertation about the relationship between “theory”, intelligence, desire, and mimesis in contemporary “late fascist” politics."
-author-image: ams.jpg  # file must be in the /assets/img/ folder
+author-bio: "I am a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute and a Ph.D. candidate at Simon Fraser University. My dissertation is about the relationship between theory, intelligence, desire, and mimesis in contemporary late fascist politics."
+# author-image: ams.jpg  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
