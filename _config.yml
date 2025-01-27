@@ -25,7 +25,7 @@ nav-menu:
 - text: Publications
   permalink: publications
 - text: Algorithmic Authenticity
-  permalink: https://meson.press/books/algorithmic-authenticity/
+  permalink: "https://meson.press/books/algorithmic-authenticity/"
 
   # use false to turn off any social media links
 twitter: https://twitter.com/anthbrtn
@@ -34,7 +34,7 @@ instagram: false
 github: https://gitlab.com/anthbrtn
 linkedin: false
 medium: false
-google-scholar: false
+google-scholar: https://scholar.google.com/citations?user=FxoLSjYAAAAJ&hl=en&inst=10441630620217902552
 email: false
 
 # footer information
