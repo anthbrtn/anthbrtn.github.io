@@ -3,15 +3,15 @@ baseurl: "" # the name of your github repo
 url: "https://anthbrtn.com" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "Anthony Burton"
+description: "Internet culture researcher"
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Satoshi Nakamoto
-author-bio: Creator of Bitcoin  # change to false to hide
+author: Anthony Burton
+author-bio: false  # change to false to hide
 author-image: 279.png  # file must be in the /assets/img/ folder
 
 # navigation menu
@@ -20,27 +20,29 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
-- text: Bitcoin
+- text: Curriculum Vitae
   permalink: bitcoin
-- text: Blog
-  permalink: blog
+- text: Publications
+  permalink: publications
+- text: Algorithmic Authenticity
+  permalink: https://meson.press/books/algorithmic-authenticity/
 
-# use false to turn off any social media links
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
+  # use false to turn off any social media links
+twitter: https://twitter.com/anthbrtn
+facebook: false
+instagram: false
+github: https://gitlab.com/anthbrtn
+linkedin: false
 medium: false
 google-scholar: false
 email: false
 
 # footer information
-footer-msg: "Powered by Tailpages"
-footer-msg-link: https://github.com/harrywang/tailpages
+#footer-msg: "Powered by Tailpages"
+#footer-msg-link: https://github.com/harrywang/tailpages
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+#google-analytics: G-WCRC1TC2V5
 
 # jekyll plugins - no need to change
 plugins:
