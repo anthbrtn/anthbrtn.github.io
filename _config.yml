@@ -21,7 +21,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: About
-  permalink: {{site.url}}/about
+  permalink: about
 - text: Presentations
   permalink: presentations
 - text: Publications
