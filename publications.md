@@ -4,14 +4,16 @@ title: Publications
 permalink: publications
 ---
 
-## Publications
+# Refereed Publications
 
-### Refereed Publications
+## 2025
 
 Burton, Anthony Glyn. “'Considered harmful': cat-v, UNIX, and digital libertarianism". Theory, Culture and Society (under review).
 
-Burton, Anthony Glyn and Esther Weltevrede. 2024. “Platform authentication: When is social
-media?” International Journal of Communication (forthcoming 2024).
+Burton, Anthony Glyn and Esther Weltevrede. 2025. “Platform authentication: When is social
+media?” International Journal of Communication (forthcoming).
+
+## 2023
 
 Burton, Anthony Glyn, Wendy Hui Kyong Chun and Liliana Bounegru, Melody Devries, Amy Harris, hannah holtzclaw, Ioana Jucan, Alex Juhasz,
 D. W. Kamish, Ganaele Langlois, Jasmine Proctor, Christine Tomlinson, Roopa Vasudevan,
@@ -23,10 +25,14 @@ the deep vernacular web". In Rogers, Richard ed. *The Propagation of Misinforma
 A Cross-platform Analysis*. Amsterdam University
 Press.
 
+## 2022
+
 ---. 2022. "Blackpill Science: Involuntary Celibacy, Rational Technique, and Economic Existence under Neoliberalism." *Canadian Journal of Communications 47* (4): 676-701. [https://doi.org/10.3138/cjc.2022-07-25](https://doi.org/10.3138/cjc.2022-07-25).
 
 Elmer, Greg and Anthony G. Burton. 2022. "Rebel personalities: Canada's
 far-right media." *First Monday* 27 (9). [https://doi.org/10.5210/fm.v27i5.12546](https://doi.org/10.5210/fm.v27i5.12546).
+
+## 2021
 
 Burton, Anthony Glyn. 2021. \"Wojak's lament: Memetic excess and the NPC
 under network capitalism\". *Critical Meme Reader: Global Mutations of the Viral Image*. 
@@ -51,6 +57,8 @@ Ward-Kimola. 2021. "Zoombombing During a Global Pandemic." *Social
 Media + Society 7* (3): 20563051211035356.
 [https://doi.org/10.1177/20563051211035356](https://doi.org/10.1177/20563051211035356).
 
+## 2020
+
 Elmer, Greg, Sabrina Ward-Kimola, & Anthony Glyn Burton. 2020.
 \"Crowdfunding during COVID-19: An international comparison of online
 fundraising.\" *First Monday*, 25(11).
@@ -66,6 +74,8 @@ Political Misinformation on Online Subcultural Platforms\". *Harvard
 Misinformation Review*.
 <https://misinforeview.hks.harvard.edu/article/research-note-the-spread-of-political-misinformation-on-online-subcultural-platforms/>.
 
+## Older
+
 Burton, Anthony Glyn. 2019. \"Being in/of the Network: The Chad Meme as
 Digital Subject\". *To Be Decided: Journal of Interdisciplinary Theory*.
 4 (2): 8.
@@ -73,7 +83,7 @@ Digital Subject\". *To Be Decided: Journal of Interdisciplinary Theory*.
 ---. 2016. \"The Production of Society: Social Cohesion, Newspapers, and
 Social Media\". *ImagiNATIONS* 4 (1): 57--70.
 
-### Book Reviews
+# Book Reviews
 
 Burton, Anthony Glyn. 2023. Book Review: Code: From Information Theory to French Theory. *New Media & Society*, May. https://doi.org/10.1177/14614448231173132.
 
@@ -86,7 +96,7 @@ Geek
 Culture](https://quillandquire.com/review/getting-a-life-the-social-worlds-of-geek-culture/).
 *Quill & Quire*, March.
 
-### Reports
+# Reports
 
 Bridgman, Aengus, Mathieu Lavigne, Melissa Baker, Thomas Bergeron,
 Danielle Bohonos, Anthony Burton, Katharine McCoy, Mackenzie Hart,
@@ -113,7 +123,7 @@ YouTube\'](https://wiki.digitalmethods.net/Dmi/SummerSchool2019StreamsoftheDeepW
 *Digital Methods Institute Summer School* Project Report. University of
 Amsterdam, July 21.
 
-### Other Publications
+# Other Publications
 
 Burton, Anthony Glyn. 2022. "Jonathan Beller – Poetry Against Calamity: Decolonial Ecography and Post-Capitalist Economic Media." Digital Democracies Institute blog. June 28. <https://digitaldemocracies.org/jonathan-beller-poetry-against-calamity-decolonial-ecography-and-post-capitalist-economic-media/>. 
 
