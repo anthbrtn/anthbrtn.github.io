@@ -11,7 +11,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Anthony Burton
-author-bio: "I’m a Mellon-SFU Fellow at the Digital Democracies Institute, working on my dissertation about the relationship between “theory”, intelligence, desire, and mimesis in contemporary “late fascist” politics."
+author-bio: I’m a Mellon-SFU Data Fluencies Fellow at the [Digital Democracies Institute](https://digitaldemocracies.org), working on my dissertation about the relationship between “theory”, intelligence, desire, and mimesis in contemporary “late fascist” politics.
 author-image: ams.jpg  # file must be in the /assets/img/ folder
 
 # navigation menu
@@ -24,6 +24,8 @@ nav-menu:
   permalink: presentations
 - text: Publications
   permalink: publications
+- text: Curriculum Vitae
+  permalink: cv
 - text: Algorithmic Authenticity
   permalink: "https://meson.press/books/algorithmic-authenticity/"
 - text: Contact
