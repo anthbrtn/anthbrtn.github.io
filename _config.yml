@@ -28,6 +28,8 @@ nav-menu:
   permalink: publications
 - text: Algorithmic Authenticity
   permalink: "https://meson.press/books/algorithmic-authenticity/"
+- text: Contact
+  permalink: contact
 
   # use false to turn off any social media links
 twitter: https://twitter.com/anthbrtn
