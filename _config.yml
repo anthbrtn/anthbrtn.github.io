@@ -19,7 +19,7 @@ show-nav-menu: true
 
 nav-menu:
 - text: About
-  permalink: about
+  permalink: {{site.url}}/about
 - text: Presentations
   permalink: presentations
 - text: Publications
