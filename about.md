@@ -4,7 +4,7 @@ title: About
 permalink: about
 ---
 
-<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/279.png">
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/ams.jpg">
 
 I'm a Mellon-SFU Fellow at the Digital Democracies Institute, working on my dissertation about the relationship between “theory”, intelligence, desire, and mimesis in contemporary "late fascist" politics.
 
