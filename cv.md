@@ -4,5 +4,4 @@ title: Curriculum Vitae
 permalink: cv
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/pdfs/burton_cv.pdf" width="1000" height="1000" type="application/pdf"></object>
-<embed src="/assets/pdfs/burton_cv.pdf" type="application/pdf" width="100%" height="600px" />
+<embed src="/assets/pdfs/burton_cv.pdf" type="application/pdf" width="100%" height="800px" />
