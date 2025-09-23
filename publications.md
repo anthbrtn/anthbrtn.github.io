@@ -8,8 +8,6 @@ permalink: publications
 
 ## 2025
 
-Burton, Anthony Glyn. “'Considered harmful': cat-v, UNIX, and digital libertarianism". Theory, Culture and Society (under review).
-
 Burton, Anthony Glyn and Esther Weltevrede. 2025. “Platform authentication: When is social
 media?” International Journal of Communication (forthcoming).
 
