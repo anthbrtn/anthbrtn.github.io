@@ -11,7 +11,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Anthony Burton
-author-bio: "I am a postdoctoral research in the Media Studies department at the University of Amsterdam. I finished my Ph.D. in Communication at Simon Fraser University, where I was a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute. My dissertation is about the relationship between social theory, intelligence, desire, and mimesis in contemporary late fascist politics.
+author-bio: "I am a postdoctoral researcher in the Media Studies department at the University of Amsterdam. I finished my Ph.D. in Communication at Simon Fraser University, where I was a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute. My dissertation is about the relationship between social theory, intelligence, desire, and mimesis in contemporary late fascist politics.
 
 You can find more information in the menus above."
 #author-image: onepx.png  # file must be in the /assets/img/ folder
@@ -41,7 +41,7 @@ github: https://gitlab.com/anthbrtn
 linkedin: false
 medium: false
 google-scholar: https://scholar.google.com/citations?user=FxoLSjYAAAAJ&hl=en&inst=10441630620217902552
-email: false
+email: mailto:ab@anthbrtn.com
 
 # footer information
 #footer-msg: "Powered by Tailpages"
