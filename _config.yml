@@ -53,3 +53,5 @@ email: mailto:ab@anthbrtn.com
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
+disable_disk_cache: true

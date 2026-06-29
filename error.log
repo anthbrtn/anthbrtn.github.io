@@ -1,0 +1,292 @@
+{"app_name":"ruby","timestamp":"2026-02-24 18:07:55.00 +0100","app_version":"","slice_uuid":"ff844ce6-2e16-3852-8dfa-ab2a668226bf","build_version":"","platform":1,"share_with_app_devs":0,"is_first_party":1,"bug_type":"309","os_version":"macOS 15.5 (24F74)","roots_installed":0,"incident_id":"597E5D24-45E9-45D8-A31B-0686D8250CB7","name":"ruby"}
+{
+  "uptime" : 95000,
+  "procRole" : "Unspecified",
+  "version" : 2,
+  "userID" : 502,
+  "deployVersion" : 210,
+  "modelCode" : "Mac15,12",
+  "coalitionID" : 1053,
+  "osVersion" : {
+    "train" : "macOS 15.5",
+    "build" : "24F74",
+    "releaseType" : "User"
+  },
+  "captureTime" : "2026-02-24 18:07:54.7896 +0100",
+  "codeSigningMonitor" : 1,
+  "incident" : "597E5D24-45E9-45D8-A31B-0686D8250CB7",
+  "pid" : 68098,
+  "translated" : false,
+  "cpuType" : "ARM-64",
+  "roots_installed" : 0,
+  "bug_type" : "309",
+  "procLaunch" : "2026-02-24 18:07:54.4524 +0100",
+  "procStartAbsTime" : 2288549262050,
+  "procExitAbsTime" : 2288557292800,
+  "procName" : "ruby",
+  "procPath" : "\/opt\/homebrew\/*\/ruby",
+  "parentProc" : "zsh",
+  "parentPid" : 62518,
+  "coalitionName" : "com.googlecode.iterm2",
+  "crashReporterKey" : "EAD36582-0967-B2AB-7C62-983BEA25B5CE",
+  "appleIntelligenceStatus" : {"state":"unavailable","reasons":["siriAssetIsNotReady","notOptedIn","assetIsNotReady"]},
+  "responsiblePid" : 46273,
+  "responsibleProc" : "iTerm2",
+  "codeSigningID" : "ruby-55554944ff844ce62e1638528dfaab2a668226bf",
+  "codeSigningTeamID" : "",
+  "codeSigningFlags" : 570425345,
+  "codeSigningValidationCategory" : 10,
+  "codeSigningTrustLevel" : 4294967295,
+  "codeSigningAuxiliaryInfo" : 0,
+  "instructionByteStream" : {"beforePC":"fyMD1f17v6n9AwCRm+D\/l78DAJH9e8Go\/w9f1sADX9YQKYDSARAA1A==","atPC":"AwEAVH8jA9X9e7+p\/QMAkZDg\/5e\/AwCR\/XvBqP8PX9bAA1\/WcAqA0g=="},
+  "bootSessionUUID" : "C592450F-554D-4ECD-A2D9-F0F5201FB019",
+  "wakeTime" : 4212,
+  "sleepWakeUUID" : "A3E59A92-0202-41C6-AA35-7F18696E7CF0",
+  "sip" : "disabled",
+  "vmRegionInfo" : "0 is not in any region.  Bytes before following region: 4377264128\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      104e7c000-104e80000    [   16K] r-x\/r-x SM=COW  \/opt\/homebrew\/*\/ruby",
+  "exception" : {"codes":"0x0000000000000001, 0x0000000000000000","rawCodes":[1,0],"type":"EXC_BAD_ACCESS","signal":"SIGSEGV","subtype":"KERN_INVALID_ADDRESS at 0x0000000000000000"},
+  "termination" : {"flags":0,"code":11,"namespace":"SIGNAL","indicator":"Segmentation fault: 11","byProc":"ruby","byPid":68098},
+  "vmregioninfo" : "0 is not in any region.  Bytes before following region: 4377264128\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      UNUSED SPACE AT START\n--->  \n      __TEXT                      104e7c000-104e80000    [   16K] r-x\/r-x SM=COW  \/opt\/homebrew\/*\/ruby",
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":2033013,"threadState":{"x":[{"value":0},{"value":0},{"value":0},{"value":8447038448,"symbolLocation":304,"symbol":"__sF"},{"value":20680267530240},{"value":6627134537728},{"value":144},{"value":0},{"value":785323792838025300},{"value":785323800169217876},{"value":4096},{"value":1099511627776},{"value":4294967293},{"value":0},{"value":0},{"value":0},{"value":328},{"value":8464113576},{"value":0},{"value":11},{"value":259},{"value":8447008736,"symbolLocation":224,"symbol":"_main_thread"},{"value":4391534395,"symbolLocation":34155,"symbol":"hex_table"},{"value":8447038448,"symbolLocation":304,"symbol":"__sF"},{"value":4856824552},{"value":4856824152},{"value":16},{"value":8444415568,"symbolLocation":19808,"symbol":"lsl::sPoolBytes"},{"value":105553181684160}],"flavor":"ARM_THREAD_STATE64","lr":{"value":6600403084},"cpsr":{"value":1073745920},"fp":{"value":5595522240},"sp":{"value":5595522208},"esr":{"value":1442840704,"description":" Address size fault"},"pc":{"value":6600168328,"matchesCrashFrame":1},"far":{"value":0}},"queue":"com.apple.main-thread","frames":[{"imageOffset":37768,"symbol":"__pthread_kill","symbolLocation":8,"imageIndex":17},{"imageOffset":26764,"symbol":"pthread_kill","symbolLocation":296,"imageIndex":18},{"imageOffset":265476,"symbol":"raise","symbolLocation":32,"imageIndex":19},{"imageOffset":583716,"symbol":"rb_bug_for_fatal_signal","symbolLocation":172,"imageIndex":1},{"imageOffset":1569708,"symbol":"sigsegv","symbolLocation":112,"imageIndex":1},{"imageOffset":13860,"symbol":"_sigtramp","symbolLocation":56,"imageIndex":20},{"imageOffset":121480,"symbol":"unsigned long std::__1::__do_string_hash[abi:ne210108]<char const*>(char const*, char const*)","symbolLocation":44,"imageIndex":16},{"imageOffset":30108,"symbol":"std::__1::__string_hash<char, std::__1::allocator<char>>::operator()[abi:ne210108](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const","symbolLocation":72,"imageIndex":16},{"imageOffset":639520,"symbol":"std::__1::__unordered_map_hasher<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>::operator()[abi:ne210108](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const","symbolLocation":32,"imageIndex":16},{"imageOffset":638364,"symbol":"std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*>, void*>*>, bool> std::__1::__hash_table<std::__1::__hash_value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*>, std::__1::__unordered_map_hasher<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>, std::__1::__unordered_map_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>>::__emplace_unique_key_args<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const&>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const&)","symbolLocation":48,"imageIndex":16},{"imageOffset":638224,"symbol":"std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*>, void*>*>, bool> std::__1::__hash_table<std::__1::__hash_value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*>, std::__1::__unordered_map_hasher<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>, std::__1::__unordered_map_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>>::__emplace_unique_extract_key[abi:ne210108]<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const&>(std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const&, std::__1::__extract_key_first_tag)","symbolLocation":52,"imageIndex":16},{"imageOffset":638080,"symbol":"std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*>, void*>*>, bool> std::__1::__hash_table<std::__1::__hash_value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*>, std::__1::__unordered_map_hasher<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>, std::__1::__unordered_map_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, true>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>>::__emplace_unique[abi:ne210108]<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const&>(std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const&)","symbolLocation":48,"imageIndex":16},{"imageOffset":637188,"symbol":"void std::__1::unordered_map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>>::insert<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const*>(std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const*, std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*> const*)","symbolLocation":68,"imageIndex":16},{"imageOffset":637020,"symbol":"std::__1::unordered_map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>>::unordered_map(std::initializer_list<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>)","symbolLocation":84,"imageIndex":16},{"imageOffset":626588,"symbol":"std::__1::unordered_map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, Sass::Color_RGBA const*, std::__1::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::equal_to<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>>::unordered_map(std::initializer_list<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const, Sass::Color_RGBA const*>>)","symbolLocation":44,"imageIndex":16},{"imageOffset":692380,"symbol":"__cxx_global_var_init.163","symbolLocation":7936,"imageIndex":16},{"imageOffset":693392,"symbol":"_GLOBAL__sub_I_color_maps.cpp","symbolLocation":640,"imageIndex":16},{"imageOffset":143100,"symbol":"invocation function for block in dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const","symbolLocation":444,"imageIndex":21},{"imageOffset":391268,"symbol":"invocation function for block in dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void (unsigned int) block_pointer, void const*) const","symbolLocation":324,"imageIndex":21},{"imageOffset":521612,"symbol":"invocation function for block in mach_o::Header::forEachSection(void (mach_o::Header::SectionInfo const&, bool&) block_pointer) const","symbolLocation":240,"imageIndex":21},{"imageOffset":508696,"symbol":"mach_o::Header::forEachLoadCommand(void (load_command const*, bool&) block_pointer) const","symbolLocation":208,"imageIndex":21},{"imageOffset":514648,"symbol":"mach_o::Header::forEachSection(void (mach_o::Header::SectionInfo const&, bool&) block_pointer) const","symbolLocation":124,"imageIndex":21},{"imageOffset":389940,"symbol":"dyld3::MachOAnalyzer::forEachInitializer(Diagnostics&, dyld3::MachOAnalyzer::VMAddrConverter const&, void (unsigned int) block_pointer, void const*) const","symbolLocation":516,"imageIndex":21},{"imageOffset":142516,"symbol":"dyld4::Loader::findAndRunAllInitializers(dyld4::RuntimeState&) const","symbolLocation":176,"imageIndex":21},{"imageOffset":173680,"symbol":"dyld4::JustInTimeLoader::runInitializers(dyld4::RuntimeState&) const","symbolLocation":36,"imageIndex":21},{"imageOffset":144480,"symbol":"dyld4::Loader::runInitializersBottomUp(dyld4::RuntimeState&, dyld3::Array<dyld4::Loader const*>&, dyld3::Array<dyld4::Loader const*>&) const","symbolLocation":308,"imageIndex":21},{"imageOffset":162800,"symbol":"dyld4::Loader::runInitializersBottomUpPlusUpwardLinks(dyld4::RuntimeState&) const::$_0::operator()() const","symbolLocation":180,"imageIndex":21},{"imageOffset":145276,"symbol":"dyld4::Loader::runInitializersBottomUpPlusUpwardLinks(dyld4::RuntimeState&) const","symbolLocation":716,"imageIndex":21},{"imageOffset":291076,"symbol":"dyld4::APIs::dlopen_from(char const*, int, void*)::$_0::operator()() const","symbolLocation":1856,"imageIndex":21},{"imageOffset":245596,"symbol":"dyld4::APIs::dlopen_from(char const*, int, void*)","symbolLocation":1136,"imageIndex":21},{"imageOffset":244288,"symbol":"dyld4::APIs::dlopen(char const*, int)","symbolLocation":128,"imageIndex":21},{"imageOffset":47884,"symbol":"library_initialize","symbolLocation":152,"imageIndex":15},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":2077760,"symbol":"invoke_block_from_c_bh","symbolLocation":712,"imageIndex":1},{"imageOffset":1989000,"symbol":"rb_yield","symbolLocation":332,"imageIndex":1},{"imageOffset":16492,"symbol":"rb_ary_each","symbolLocation":88,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":2077760,"symbol":"invoke_block_from_c_bh","symbolLocation":712,"imageIndex":1},{"imageOffset":1989000,"symbol":"rb_yield","symbolLocation":332,"imageIndex":1},{"imageOffset":35808,"symbol":"rb_ary_collect","symbolLocation":172,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":940312,"symbol":"require_internal","symbolLocation":768,"imageIndex":1},{"imageOffset":937856,"symbol":"rb_require_string_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":940312,"symbol":"require_internal","symbolLocation":768,"imageIndex":1},{"imageOffset":937856,"symbol":"rb_require_string_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":937648,"symbol":"rb_require_string","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":2032168,"symbol":"vm_call_alias","symbolLocation":112,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":940312,"symbol":"require_internal","symbolLocation":768,"imageIndex":1},{"imageOffset":937856,"symbol":"rb_require_string_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":937648,"symbol":"rb_require_string","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":2032168,"symbol":"vm_call_alias","symbolLocation":112,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":940312,"symbol":"require_internal","symbolLocation":768,"imageIndex":1},{"imageOffset":937856,"symbol":"rb_require_string_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":937648,"symbol":"rb_require_string","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":2032168,"symbol":"vm_call_alias","symbolLocation":112,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":940312,"symbol":"require_internal","symbolLocation":768,"imageIndex":1},{"imageOffset":937856,"symbol":"rb_require_string_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":937648,"symbol":"rb_require_string","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":2032168,"symbol":"vm_call_alias","symbolLocation":112,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":937028,"symbol":"rb_load_internal","symbolLocation":144,"imageIndex":1},{"imageOffset":937520,"symbol":"load_entrypoint_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":943524,"symbol":"rb_f_load","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":937028,"symbol":"rb_load_internal","symbolLocation":144,"imageIndex":1},{"imageOffset":937520,"symbol":"load_entrypoint_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":943524,"symbol":"rb_f_load","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1938080,"symbol":"rb_vm_exec","symbolLocation":1108,"imageIndex":1},{"imageOffset":947184,"symbol":"load_iseq_eval","symbolLocation":564,"imageIndex":1},{"imageOffset":937028,"symbol":"rb_load_internal","symbolLocation":144,"imageIndex":1},{"imageOffset":937520,"symbol":"load_entrypoint_internal","symbolLocation":96,"imageIndex":1},{"imageOffset":943524,"symbol":"rb_f_load","symbolLocation":64,"imageIndex":1},{"imageOffset":2048232,"symbol":"vm_call_cfunc_with_frame_","symbolLocation":244,"imageIndex":1},{"imageOffset":1957648,"symbol":"vm_exec_core","symbolLocation":13564,"imageIndex":1},{"imageOffset":1937480,"symbol":"rb_vm_exec","symbolLocation":508,"imageIndex":1},{"imageOffset":616000,"symbol":"rb_ec_exec_node","symbolLocation":136,"imageIndex":1},{"imageOffset":615784,"symbol":"ruby_run_node","symbolLocation":76,"imageIndex":1},{"imageOffset":5544,"symbol":"main","symbolLocation":104,"imageIndex":0},{"imageOffset":27544,"symbol":"start","symbolLocation":6076,"imageIndex":21}]},{"id":2033014,"frames":[{"imageOffset":27908,"symbol":"kevent","symbolLocation":8,"imageIndex":17},{"imageOffset":1797220,"symbol":"timer_thread_func","symbolLocation":688,"imageIndex":1},{"imageOffset":27660,"symbol":"_pthread_start","symbolLocation":136,"imageIndex":18},{"imageOffset":7040,"symbol":"thread_start","symbolLocation":8,"imageIndex":18}],"threadState":{"x":[{"value":4},{"value":0},{"value":0},{"value":4393271364,"symbolLocation":28,"symbol":"timer_th"},{"value":16},{"value":0},{"value":0},{"value":0},{"value":4393271928,"symbolLocation":592,"symbol":"timer_th"},{"value":2},{"value":0},{"value":2},{"value":0},{"value":0},{"value":0},{"value":0},{"value":363},{"value":8464115240},{"value":0},{"value":1},{"value":18446744073709551480},{"value":4294967295},{"value":4393272040,"symbolLocation":0,"symbol":"consume_communication_pipe.buff"},{"value":999999},{"value":4393271848,"symbolLocation":512,"symbol":"timer_th"},{"value":4393193288,"symbolLocation":0,"symbol":"ubf_list_head"},{"value":5595254272},{"value":5595254640},{"value":4393271880,"symbolLocation":544,"symbol":"timer_th"}],"flavor":"ARM_THREAD_STATE64","lr":{"value":4389006436},"cpsr":{"value":1610616832},"fp":{"value":6090174400},"sp":{"value":6090174272},"esr":{"value":1442840704,"description":" Address size fault"},"pc":{"value":6600158468},"far":{"value":0}}}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4377264128,
+    "size" : 16384,
+    "uuid" : "ff844ce6-2e16-3852-8dfa-ab2a668226bf",
+    "path" : "\/opt\/homebrew\/*\/ruby",
+    "name" : "ruby"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4387209216,
+    "size" : 5816320,
+    "uuid" : "ff1fadc5-d0d2-3482-94aa-7900c159d726",
+    "path" : "\/opt\/homebrew\/*\/libruby.4.0.dylib",
+    "name" : "libruby.4.0.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4378673152,
+    "size" : 16384,
+    "uuid" : "9f331dec-6d08-3ae5-8404-9658ac8e72ba",
+    "path" : "\/opt\/homebrew\/*\/encdb.bundle",
+    "name" : "encdb.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4378984448,
+    "size" : 16384,
+    "uuid" : "b7e49925-b6e8-3700-9616-d13366ded227",
+    "path" : "\/opt\/homebrew\/*\/transdb.bundle",
+    "name" : "transdb.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4379066368,
+    "size" : 16384,
+    "uuid" : "fc2fa1e7-8925-3c70-bfa8-efbaf66125a7",
+    "path" : "\/opt\/homebrew\/*\/monitor.bundle",
+    "name" : "monitor.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4840914944,
+    "size" : 180224,
+    "uuid" : "3bb033e7-59a4-3a37-a602-f1e6a8835770",
+    "path" : "\/opt\/homebrew\/*\/date_core.bundle",
+    "name" : "date_core.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4840620032,
+    "size" : 32768,
+    "uuid" : "7691e2b9-48a8-365f-9fb1-3d0165f9a665",
+    "path" : "\/opt\/homebrew\/*\/stringio.bundle",
+    "name" : "stringio.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4387110912,
+    "size" : 16384,
+    "uuid" : "63817791-7743-3ebf-9cde-de3bb3f94295",
+    "path" : "\/opt\/homebrew\/*\/strscan.bundle",
+    "name" : "strscan.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4843372544,
+    "size" : 49152,
+    "uuid" : "1c84658b-bba0-3fd5-8e78-de473981f031",
+    "path" : "\/opt\/homebrew\/*\/parser.bundle",
+    "name" : "parser.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4843487232,
+    "size" : 49152,
+    "uuid" : "37901adc-ccf8-35f9-89d2-1c16dec19d9c",
+    "path" : "\/opt\/homebrew\/*\/generator.bundle",
+    "name" : "generator.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4844748800,
+    "size" : 32768,
+    "uuid" : "72dcb5b9-a398-3034-8857-671aa5c55602",
+    "path" : "\/opt\/homebrew\/*\/psych.bundle",
+    "name" : "psych.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4844994560,
+    "size" : 98304,
+    "uuid" : "b6da487f-466c-3a9d-80e4-da11dbb76878",
+    "path" : "\/opt\/homebrew\/*\/libyaml-0.2.dylib",
+    "name" : "libyaml-0.2.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4840816640,
+    "size" : 16384,
+    "uuid" : "3563eea2-8de1-314e-a3a3-fb46a3a4c060",
+    "path" : "\/opt\/homebrew\/*\/escape.bundle",
+    "name" : "escape.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4847058944,
+    "size" : 81920,
+    "uuid" : "4fa03f04-1362-3f6f-8d1c-5169cac2629b",
+    "path" : "\/Users\/USER\/*\/bigdecimal.bundle",
+    "name" : "bigdecimal.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4848615424,
+    "size" : 16384,
+    "uuid" : "438dbfff-df48-3c3f-9aea-c29e3e88c91d",
+    "path" : "\/opt\/homebrew\/*\/escape.bundle",
+    "name" : "escape.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4848910336,
+    "size" : 114688,
+    "uuid" : "cf2b415a-da71-3005-9b36-04ae9b6e7ca3",
+    "path" : "\/Users\/USER\/*\/ffi_c.bundle",
+    "name" : "ffi_c.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4856823808,
+    "size" : 2490368,
+    "uuid" : "81038a23-16c5-3f8b-86ce-b3bcd895377a",
+    "path" : "\/Users\/USER\/*\/libsass.bundle",
+    "name" : "libsass.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6600130560,
+    "size" : 243284,
+    "uuid" : "60485b6f-67e5-38c1-aec9-efd6031ff166",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6600376320,
+    "size" : 51784,
+    "uuid" : "647b91fc-96d3-3bbb-af08-970df45257c8",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6598897664,
+    "size" : 529520,
+    "uuid" : "f4529d5e-24f3-3bbb-bd3c-984856875fc8",
+    "path" : "\/usr\/lib\/system\/libsystem_c.dylib",
+    "name" : "libsystem_c.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6600626176,
+    "size" : 31568,
+    "uuid" : "519f3220-7499-334a-96d6-ccf3dc28f986",
+    "path" : "\/usr\/lib\/system\/libsystem_platform.dylib",
+    "name" : "libsystem_platform.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6596575232,
+    "size" : 636112,
+    "uuid" : "9cf0401a-a938-389e-a77d-9e9608076ccf",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  }
+],
+  "sharedCache" : {
+  "base" : 6595739648,
+  "size" : 5047205888,
+  "uuid" : "d7397d7f-8df9-3920-81a7-c0a144be9c51"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=858.2M resident=0K(0%) swapped_out_or_unallocated=858.2M(100%)\nWritable regions: Total=1.5G written=385K(0%) resident=385K(0%) swapped_out=0K(0%) unallocated=1.5G(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nKernel Alloc Once                   32K        1 \nMALLOC                             1.1G       34 \nMALLOC guard page                   96K        6 \nSTACK GUARD                         16K        1 \nStack                             8720K        2 \nStack Guard                       56.0M        1 \nVM_ALLOCATE                      174.5M      154 \nVM_ALLOCATE (reserved)           256.0M        1         reserved VM address space (unallocated)\n__AUTH                             822K      161 \n__AUTH_CONST                      12.8M      296 \n__DATA                            3558K      291 \n__DATA_CONST                      11.1M      313 \n__DATA_DIRTY                       452K       89 \n__FONT_DATA                        2352        1 \n__LINKEDIT                       620.9M       18 \n__OBJC_RO                         61.4M        1 \n__OBJC_RW                         2396K        1 \n__TEXT                           237.3M      322 \n__TPRO_CONST                       128K        2 \nmapped file                       7936K        3 \npage table in kernel               385K        1 \nshared memory                       48K        2 \n===========                     =======  ======= \nTOTAL                              2.5G     1701 \nTOTAL, minus reserved VM space     2.2G     1701 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.main-thread"
+  }
+},
+  "logWritingSignature" : "229452cd525cb7f98e763b97572412eaff11e41a",
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "67d07cd6a7affa169ae21f45",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000002
+    },
+    {
+      "rolloutId" : "652eff3d1bce5442b8d753c9",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000009
+    }
+  ],
+  "experiments" : [
+
+  ]
+}
+}

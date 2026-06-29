@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: default
 title: Presentations
 permalink: presentations
 ---
+
+## 2026
+"Deciphering slopaganda". Keynote. *Digital Methods Summer School: Visual AI for internet research - On and beyond slop.* Amsterdam, N.L., 29 June.
 
 ## 2024
 

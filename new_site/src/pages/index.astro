@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Anthony Burton';
+---
+
+<BaseLayout title={title}>
+  <header class="mb-12 text-center accent-bg p-6 rounded-lg">
+    <div class="flex justify-center mb-6">
+      <div class="bg-gray-200 border-2 border-dashed rounded-xl w-32 h-32 flex items-center justify-center text-gray-500">
+        Photo
+      </div>
+    </div>
+    <h1 class="text-4xl md:text-5xl font-bold mb-2 text-purple-800">ANTHONY BURTON</h1>
+    <p class="text-xl text-purple-600 font-medium">Internet culture researcher</p>
+  </header>
+
+  <section class="content-section bg-gradient-to-r from-purple-5 to-indigo-5 p-6 rounded-lg">
+    <div class="prose prose-lg max-w-none">
+      <p class="text-gray-700">I am a postdoctoral researcher in the Media Studies department at the University of Amsterdam. I finished my Ph.D. in Communication at Simon Fraser University, where I was a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute. My dissertation is about the relationship between social theory, intelligence, desire, and mimesis in contemporary late fascist politics.</p>
+      
+      <p class="text-gray-700 mt-4">You can find more information in the menus below.</p>
+    </div>
+  </section>
+
+  <hr class="my-8 border-purple-200" />
+
+  <nav class="flex flex-wrap justify-center gap-4 mt-8">
+    <a href="/about" class="nav-link">About</a>
+    <a href="/presentations" class="nav-link">Presentations</a>
+    <a href="/publications" class="nav-link">Publications</a>
+    <a href="/cv" class="nav-link">CV</a>
+    <a href="/contact" class="nav-link">Contact</a>
+  </nav>
+  
+  <hr class="my-8 border-purple-200" />
+  
+  <div class="text-center text-sm text-gray-500 mt-12">
+    <p>© {new Date().getFullYear()} Anthony Burton</p>
+  </div>
+</BaseLayout>

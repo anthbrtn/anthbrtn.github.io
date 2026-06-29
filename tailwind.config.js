@@ -2,44 +2,21 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    './**/*.html'
+    './**/*.html',
+    './**/*.md'
   ],
-  darkMode: 'media',
   theme: {
     extend: {
-      typography: {
-        DEFAULT: {
-          css: {
-            pre: {
-              padding: "0",
-              color: "#1F2933",
-              backgroundColor: "#F3F3F3"
-            },
-            code: {
-              padding: "0.2em 0.4em",
-              backgroundColor: "#F3F3F3",
-              color: "#DD1144",
-              fontWeight: "400",
-              "border-radius": "0.25rem"
-            },
-            "code::before": false,
-            "code::after": false,
-            "blockquote p:first-of-type::before": false,
-            "blockquote p:last-of-type::after": false,
-          },
-        },
+      colors: {
+        accent: '#D3FF52',
       },
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        mono: ['ui-monospace', 'Menlo', 'Monaco', 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', 'monospace'],
       },
     },
-  },
-
-  variants: {
-    extend: {},
   },
   plugins: [
     require('@tailwindcss/typography'),
   ],
-
 }

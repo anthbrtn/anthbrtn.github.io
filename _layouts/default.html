@@ -1,88 +1,158 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="en">
 
 <head>
-
-  <!-- google analytics -->
-  {% if site.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-
-  <!-- Jekyll SEO plugin -->
-  {% seo %}
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>{{ site.title }}</title>
-
-  <!-- TailwindCSS and Inter Font-->
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/tailwind.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | relative_url }}">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <style>
+    /* Base styles to ensure brutalist feel even if tailwind lags */
+    body {
+      background: white;
+      color: black;
+      margin: 0;
+    }
 
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  
-    <!-- highlight.js -->
-   <link rel="stylesheet"
-    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-  <script>hljs.highlightAll();</script>
-  
-  <!-- MathJax -->
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      },
-    };
-  </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
- </head>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      min-height: 100vh;
+    }
 
-<body class="font-sans mx-auto max-w-prose">
-  <div class="pt-12 pb-4">
-    {{ content }}
+    @media (min-width: 768px) {
+      .grid-container {
+        grid-template-columns: 350px 1fr;
+      }
+    }
+
+    .sidebar {
+      background: white;
+      border-bottom: 2px solid black;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    @media (min-width: 768px) {
+      .sidebar {
+        border-bottom: none;
+        border-right: 2px solid black;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+      }
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 100%;
+    }
+
+    @media (min-width: 1024px) {
+      .content {
+        padding: 4rem 6rem;
+      }
+    }
+
+    /* Prose overrides for brutalist look */
+    .prose {
+      max-width: 65ch;
+      color: black;
+      font-family: inherit;
+    }
+
+    .prose a {
+      color: black;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    .prose a:hover {
+      background: #D3FF52;
+    }
+
+    .prose h1,
+    .prose h2,
+    .prose h3 {
+      color: black;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased">
+  <div class="grid-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div>
+        <header class="mb-12">
+          <img src="{{ '/assets/img/ams.jpg' | relative_url }}" alt="{{ site.title }}"
+            class="w-full grayscale border-2 border-black mb-6">
+          <h1 class="font-mono font-bold text-3xl uppercase tracking-tighter leading-none m-0">
+            <a href="{{ '/' | relative_url }}" class="hover:bg-accent px-1 -mx-1 transition-colors">{{ site.title }}</a>
+          </h1>
+          <p class="font-mono text-xs uppercase text-gray-500 mt-2">{{ site.description }}</p>
+        </header>
+
+        <nav class="flex flex-col space-y-3 font-mono text-sm uppercase">
+          {% for item in site.nav-menu %}
+          <a href="{{ item.permalink | relative_url }}"
+            class="border-2 border-black p-2 hover:bg-accent transition-all text-black no-underline block">
+            {{ item.text }}
+          </a>
+          {% endfor %}
+        </nav>
+      </div>
+
+      <div class="mt-12 space-y-6">
+        <!-- Social Links -->
+        <div class="flex flex-wrap gap-2">
+          {% if site.twitter %}
+          <a href="{{ site.twitter }}"
+            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Twitter</a>
+          {% endif %}
+          {% if site.github %}
+          <a href="{{ site.github }}"
+            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">GitHub</a>
+          {% endif %}
+          {% if site.google-scholar %}
+          <a href="{{ site.google-scholar }}"
+            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Scholar</a>
+          {% endif %}
+          {% if site.email %}
+          <a href="{{ site.email }}"
+            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Email</a>
+          {% endif %}
+        </div>
+
+        <!-- Footer/Bio snippet in sidebar -->
+        <div class="font-mono text-[10px] uppercase leading-relaxed text-gray-600 border-t-2 border-black pt-4">
+          &copy; {{ "now" | date: "%Y" }} {{ site.title }}<br>
+          Postdoctoral Researcher<br>
+          University of Amsterdam
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <article class="prose prose-sm md:prose-base lg:prose-lg prose-headings:m-0">
+        {% if page.title and page.url != "/" %}
+        <h1 class="mb-8">{{ page.title }}</h1>
+        {% endif %}
+        {{ content }}
+      </article>
+    </main>
   </div>
 </body>
-
-<script>
-  /* Funtion for getting the current year in the footer */
-  (function () {
-    if (document.getElementById("get-current-year")) {
-      document.getElementById(
-        "get-current-year"
-      ).innerHTML = new Date().getFullYear();
-    }
-  })();
-
-  /* Function for opning navbar on mobile */
-  function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
-    /* Function for dropdowns */
-    function openDropdown(event, dropdownID) {
-      let element = event.target;
-      while (element.nodeName !== "A") {
-        element = element.parentNode;
-      }
-      document.getElementById(dropdownID).classList.toggle("hidden");
-      document.getElementById(dropdownID).classList.toggle("block");
-    }
-
-  /* Function for show/hide table of content */
-  function toggleTOC() {
-    var toc = document.getElementById('toc');
-        if (toc.style.display == "block"){ // if toc hidden, display it 
-            toc.style.display = "none";
-        }
-        else{ // if toc displayed, hidden it
-            toc.style.display = "block";
-        }
-    }
-</script>
 
 </html>

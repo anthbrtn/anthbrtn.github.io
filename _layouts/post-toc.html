@@ -1,32 +1,15 @@
 ---
 layout: default
 ---
-{% if site.show-nav-menu %}
-  {% include nav.html%}
-{% endif %}
+<h1 class="font-mono text-2xl uppercase font-extrabold mb-4">{{ page.title }}</h1>
+<div class="font-mono text-xs text-gray-500 mb-8 uppercase">{{ page.date | date: "%B %d, %Y" }}</div>
 
-<div class="px-4 pt-4 prose prose-{{site.theme-color}}">
-  <h1 class="text-center mt-6 mb-6" id="title">{{ page.title }}</h1>
-  <div class="text-center">
-    {% if page.tags.size !=0 %}
-      <i class="text-xs fas fa-tags"></i>
-    {% for tag in page.tags %}
-      <div class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-        <a class="!no-underline" href="{{site.baseurl}}/tag#{{ tag }}">{{ tag }}</a>
-      </div>
-    {% endfor %}
-    {% endif %}
-  </div>
-<div class="flex justify-center">
-  <button onclick="toggleTOC()" class="mt-6 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white p-4 py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-    Table of Contents
-  </button>
-</div>
-  <div id="toc" style="display:none;" >
-  {% include toc.html html=content h_max=2%}
-</div>
-  {{content}}
+<!-- Simple TOC placeholder for brutalist style -->
+<div class="border-2 border-black p-4 mb-8 font-mono text-sm bg-gray-50 uppercase">
+    <div class="font-bold border-b-2 border-black mb-2 pb-2">Table of Contents</div>
+    {{ content | toc }}
 </div>
 
-
-{% include footer.html %}
+<div class="prose max-w-none">
+    {{ content }}
+</div>
