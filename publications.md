@@ -6,10 +6,21 @@ permalink: publications
 
 # Refereed Publications
 
-## 2025
+## 2026
 
-Burton, Anthony Glyn and Esther Weltevrede. 2025. “Platform authentication: When is social
-media?” International Journal of Communication (forthcoming).
+Burton, Anthony. 2026. “The Paranoid Style in Artificial Intelligence.” *Journal of Illiberalism
+Studies* (in press).
+
+———. 2026. “First principles and algorithmic reason in technofascism.” *Navigationen* 26 (2): 127–42.
+
+——— and Esther Weltevrede. 2026. “App Time: The Dual-Layered Logic of Appification.”
+*International Journal of Communication* 20: 1780–98.
+[https://doi.org/10.65476/bd4srf52](https://doi.org/10.65476/bd4srf52).
+
+Lusoli, Alberto, Anthony Glyn Burton, Esther Weltevrede, Ganaele Langlois, and Wendy Hui Kyong
+Chun. 2026. “Beyond Verification: Misinformation, Disinformation, and the Artifices of
+Authenticity—Introduction.” *International Journal of Communication* 20: 1746–53.
+[https://doi.org/10.65476/4xz8h189](https://doi.org/10.65476/4xz8h189).
 
 ## 2023
 
@@ -60,11 +71,6 @@ Media + Society 7* (3): 20563051211035356.
 Elmer, Greg, Sabrina Ward-Kimola, & Anthony Glyn Burton. 2020.
 \"Crowdfunding during COVID-19: An international comparison of online
 fundraising.\" *First Monday*, 25(11).
-[https://doi.org/10.1177/20563051211035356](https://doi.org/10.1177/20563051211035356).
-
-Elmer, Greg, Sabrina Ward-Kimola, & Anthony Glyn Burton. 2020.
-\"Crowdfunding during COVID-19: An international comparison of online
-fundraising.\" *First Monday*, 25(11).
 <https://firstmonday.org/ojs/index.php/fm/article/view/10869>
 
 Burton, Anthony Glyn and Dimitri Koehorst. 2020. \"The Spread of
@@ -85,14 +91,21 @@ Social Media\". *ImagiNATIONS* 4 (1): 57--70.
 
 Burton, Anthony Glyn. 2023. Book Review: Code: From Information Theory to French Theory. *New Media & Society*, May. https://doi.org/10.1177/14614448231173132.
 
-Burton, Anthony G. 2020. Review: Technologies of Speculation: The Limits
-of Knowledge in a Data-Driven Society. *International Journal of
-Communication*, November.
+Burton, Anthony G. 2021. Review of Technologies of Speculation: The Limits
+of Knowledge in a Data-Driven Society, by Sun-ha Hong. *International
+Journal of Communication*, November 2020.
+<https://ijoc.org/index.php/ijoc/article/view/16843/3305>.
 
 Burton, Anthony G. 2018. [Review: Getting a Life: The Social Worlds of
 Geek
 Culture](https://quillandquire.com/review/getting-a-life-the-social-worlds-of-geek-culture/).
 *Quill & Quire*, March.
+
+# Edited Journal Volumes
+
+Co-editor (with Wendy Chun, Ganaele Langlois, Alberto Lusoli, and Esther
+Weltevrede), \"Beyond Verification: Mis/Disinformation and the Artifices of
+Authenticity.\" Special issue, *International Journal of Communication*. 2026.
 
 # Reports
 
@@ -121,7 +134,21 @@ YouTube\'](https://wiki.digitalmethods.net/Dmi/SummerSchool2019StreamsoftheDeepW
 *Digital Methods Institute Summer School* Project Report. University of
 Amsterdam, July 21.
 
+# In Revision and Under Review
+
+Burton, Anthony, Marco Bastos, and Marc Tuters. \"The Shallow State: The Realpolitik of Digital
+Distrust.\" *Polity* (in revision).
+
+Burton, Anthony. \"Flow and interruption: the asymmetry of app time.\" *Information, Communication &
+Society*, special issue from AoIR 2025 (Ruptures) (solicited, under review).
+
+———. \"Mythological intelligence.\" In *AI, Religion and Politics*, Eds. Anna Puzio and Alexander
+Filipović (solicited, in preparation).
+
 # Other Publications
+
+Burton, Anthony, and Marc Tuters. 2025. "Us vs They/Them: The Making of Trantifa." *Open
+Intelligence Lab*, September 28. <https://oilab.eu/us-vs-they-them-trantifa/>.
 
 Burton, Anthony Glyn. 2022. "Jonathan Beller – Poetry Against Calamity: Decolonial Ecography and Post-Capitalist Economic Media." Digital Democracies Institute blog. June 28. <https://digitaldemocracies.org/jonathan-beller-poetry-against-calamity-decolonial-ecography-and-post-capitalist-economic-media/>. 
 

@@ -5,7 +5,22 @@ permalink: presentations
 ---
 
 ## 2026
-"Deciphering slopaganda". Keynote. *Digital Methods Summer School: Visual AI for internet research - On and beyond slop.* Amsterdam, N.L., 29 June.
+
+"On & Beyond Slop". Keynote. *Digital Methods Summer School*. University of Amsterdam, June 28.
+
+With Esther Weltevrede. "Testing the future: benchmarking and the ontology of intelligence in AI evaluation". Conference presentation. *Association of Internet Researchers annual conference*. Mexico City, Mexico, October 16.
+
+"The shallow state: information infrastructure and the governance of digital distrust". Conference presentation. *Association of Internet Researchers annual conference*. Mexico City, Mexico, October 16.
+
+"Intelligence paranoid and non-". Conference presentation. *SLSA 2026: Society for Literature, Science and the Arts annual conference*. Toronto, Canada, October 9.
+
+With Prem Sylvester. "Modularizing logistics: the physical Internet and urban futures to come". Conference presentation. *4S 2026: Society for Social Studies of Science annual conference*. Toronto, Canada, October 8.
+
+## 2025
+
+With Esther Weltevrede. "Authenticating the everyday: The dual dynamics of user and machinic appification". Conference presentation. *Association of Internet Researchers annual conference*. Rio de Janeiro, Brazil, October 17.
+
+With Prem Sylvester. "Modular logistics: the physical internet in the city". Conference presentation. *Urban Speculations: Cities, Technologies, Futures*. Leuphana University Lüneburg, Lüneburg, Germany, February 4-6.
 
 ## 2024
 
@@ -22,6 +37,8 @@ With Weltevrede, Esther. \"Appification as authentication: the case of Tinder". 
 \"Techno-politics of the Apocalypse". Conference presentation. *4S Society for Social Studies of Science annual conference*. University of Hawaii, November 8. 
 
 \"Cat-v Considered Harmful: techne, alienation, and software minimalism". Conference presentation. *SLSA 2023: Society for Literature, Science and the Arts annual conference*. Arizona State University, October 27.
+
+"Algorithmic Authenticity". Book launch event. Vancouver, BC, September 15.
 
 \"Authentication and data subjectivity". Conference presentation.
 *Canadian Communication Association annual conference*. York University, May 30.
