@@ -1,6 +1,6 @@
 # Anthony Burton's Academic Website
 
-This is a modern academic website built with Astro, designed to showcase research, publications, and professional information in a clean, minimal interface inspired by sites like pringle.fail and zentralwerkstatt.org.
+This is a modern academic website built with Astro, designed to showcase research, publications, and professional information in a clean, minimal interface.
 
 ## Features
 
