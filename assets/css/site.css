@@ -1,0 +1,135 @@
+/* anthbrtn.com — site styles
+   (formerly the inline <style> block in _layouts/default.html,
+    now consolidated here and extended) */
+
+/* ---------- brutalist base ---------- */
+body {
+  background: white;
+  color: black;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 350px 1fr;
+  }
+}
+
+.sidebar {
+  background: white;
+  border-bottom: 2px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    border-bottom: none;
+    border-right: 2px solid black;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+}
+
+.content {
+  padding: 2rem;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding: 4rem 6rem;
+  }
+}
+
+/* ---------- prose ---------- */
+.prose {
+  max-width: 65ch;
+  color: black;
+  font-family: inherit;
+}
+
+.prose a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.prose a:hover {
+  background: #D3FF52;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin-top: 2rem;
+}
+
+/* ---------- mono pinned to one face per platform ---------- */
+.font-mono,
+.kicker,
+article.pub h2 {
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+/* ---------- selection + keyboard focus ---------- */
+::selection {
+  background: #D3FF52;
+  color: #000;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+}
+
+/* ---------- duotone sidebar photo (black -> lime) ---------- */
+.duotone {
+  background: #D3FF52;
+  border: 2px solid #000;
+}
+
+.duotone img {
+  display: block;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+  filter: grayscale(1) contrast(1.15) brightness(1.02);
+}
+
+/* ---------- publications page ---------- */
+article.pub p {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin: 0 0 0.85em;
+}
+
+article.pub h2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+}
+
+/* ---------- 404 ---------- */
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  color: #555;
+  margin: 0 0 0.5rem;
+}

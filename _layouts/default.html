@@ -4,89 +4,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{ site.theme-color }}">
   {% seo %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-  <style>
-    /* Base styles to ensure brutalist feel even if tailwind lags */
-    body {
-      background: white;
-      color: black;
-      margin: 0;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr;
-      min-height: 100vh;
-    }
-
-    @media (min-width: 768px) {
-      .grid-container {
-        grid-template-columns: 350px 1fr;
-      }
-    }
-
-    .sidebar {
-      background: white;
-      border-bottom: 2px solid black;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    @media (min-width: 768px) {
-      .sidebar {
-        border-bottom: none;
-        border-right: 2px solid black;
-        position: sticky;
-        top: 0;
-        height: 100vh;
-      }
-    }
-
-    .content {
-      padding: 2rem;
-      max-width: 100%;
-    }
-
-    @media (min-width: 1024px) {
-      .content {
-        padding: 4rem 6rem;
-      }
-    }
-
-    /* Prose overrides for brutalist look */
-    .prose {
-      max-width: 65ch;
-      color: black;
-      font-family: inherit;
-    }
-
-    .prose a {
-      color: black;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-underline-offset: 3px;
-    }
-
-    .prose a:hover {
-      background: #D3FF52;
-    }
-
-    .prose h1,
-    .prose h2,
-    .prose h3 {
-      color: black;
-      font-family: 'Inter', sans-serif;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
-      margin-top: 2rem;
-    }
-  </style>
+  <meta property="og:image" content="{{ '/assets/img/og.png' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:image" content="{{ '/assets/img/og.png' | absolute_url }}">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Anthony Burton","alternateName":"Anthony Glyn Burton","url":"https://anthbrtn.com/","jobTitle":"Postdoctoral Researcher and Lecturer in Critical Data & AI","affiliation":{"@type":"Organization","name":"University of Amsterdam","url":"https://www.uva.nl/"},"sameAs":["https://orcid.org/0000-0001-6474-0313","https://scholar.google.com/citations?user=FxoLSjYAAAAJ","https://www.uva.nl/en/profile/b/u/a.g.burton/a.g.burton.html","https://www.linkedin.com/in/anthbrtn","https://gitlab.com/anthbrtn"]}
+  </script>
 </head>
 
 <body class="font-sans antialiased">
@@ -95,8 +28,9 @@
     <aside class="sidebar">
       <div>
         <header class="mb-12">
-          <img src="{{ '/assets/img/ams.jpg' | relative_url }}" alt="{{ site.title }}"
-            class="w-full grayscale border-2 border-black mb-6">
+          <div class="duotone mb-6">
+            <img src="{{ '/assets/img/ams.jpg' | relative_url }}" alt="{{ site.title }}" width="490" height="490">
+          </div>
           <h1 class="font-mono font-bold text-3xl uppercase tracking-tighter leading-none m-0">
             <a href="{{ '/' | relative_url }}" class="hover:bg-accent px-1 -mx-1 transition-colors">{{ site.title }}</a>
           </h1>
@@ -116,8 +50,8 @@
       <div class="mt-12 space-y-6">
         <!-- Social Links -->
         <div class="flex flex-wrap gap-2">
-          {% if site.twitter %}
-          <a href="{{ site.twitter }}"
+          {% if site.twitterlink %}
+          <a href="{{ site.twitterlink }}"
             class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Twitter</a>
           {% endif %}
           {% if site.github %}
@@ -149,7 +83,7 @@
 
     <!-- Main Content -->
     <main class="content">
-      <article class="prose prose-sm md:prose-base lg:prose-lg prose-headings:m-0">
+      <article class="prose prose-sm md:prose-base lg:prose-lg prose-headings:m-0{% if page.permalink == 'publications' %} pub{% endif %}">
         {% if page.title and page.url != "/" %}
         <h1 class="mb-8">{{ page.title }}</h1>
         {% endif %}
