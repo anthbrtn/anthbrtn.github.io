@@ -58,6 +58,13 @@ twitter:
 # google analytics
 #google-analytics: G-WCRC1TC2V5
 
+# default social-share image (feeds og:image / twitter:image and the large card)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og.png
+
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
