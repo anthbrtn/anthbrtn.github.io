@@ -136,17 +136,6 @@ YouTube\'](https://wiki.digitalmethods.net/Dmi/SummerSchool2019StreamsoftheDeepW
 *Digital Methods Institute Summer School* Project Report. University of
 Amsterdam, July 21.
 
-# In Revision and Under Review
-
-Burton, Anthony, Marco Bastos, and Marc Tuters. \"The Shallow State: The Realpolitik of Digital
-Distrust.\" *Polity* (in revision).
-
-Burton, Anthony. \"Flow and interruption: the asymmetry of app time.\" *Information, Communication &
-Society*, special issue from AoIR 2025 (Ruptures) (solicited, under review).
-
-———. \"Mythological intelligence.\" In *AI, Religion and Politics*, Eds. Anna Puzio and Alexander
-Filipović (solicited, in preparation).
-
 # Other Publications
 
 Burton, Anthony, and Marc Tuters. 2025. "Us vs They/Them: The Making of Trantifa." *Open
