@@ -1,10 +1,15 @@
 ---
 layout: default
 title: Publications
+description: "Refereed publications, books, edited volumes, reports, and reviews by Anthony Burton."
 permalink: publications
 ---
 
 A current list is also on [Google Scholar](https://scholar.google.com/citations?user=FxoLSjYAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0001-6474-0313).
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Book","name":"Algorithmic Authenticity","author":[{"@type":"Person","name":"Anthony Glyn Burton"},{"@type":"Person","name":"Wendy Hui Kyong Chun"},{"@type":"Person","name":"Liliana Bounegru"},{"@type":"Person","name":"Melody Devries"},{"@type":"Person","name":"Amy Harris"},{"@type":"Person","name":"hannah holtzclaw"},{"@type":"Person","name":"Ioana Jucan"},{"@type":"Person","name":"Alex Juhasz"},{"@type":"Person","name":"D. W. Kamish"},{"@type":"Person","name":"Ganaele Langlois"},{"@type":"Person","name":"Jasmine Proctor"},{"@type":"Person","name":"Christine Tomlinson"},{"@type":"Person","name":"Roopa Vasudevan"},{"@type":"Person","name":"Esther Weltevrede"}],"datePublished":"2023","publisher":{"@type":"Organization","name":"meson press","location":"Leuphana"},"description":"Investigates the role that authenticity plays in contemporary information disorders, examining fact-checking, liberal democracy, and digital subjecthood.","url":"https://meson.press/books/algorithmic-authenticity/"}
+</script>
 
 # Refereed Publications
 

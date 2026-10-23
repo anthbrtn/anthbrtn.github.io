@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Curriculum Vitae
+description: "Curriculum vitae of Anthony Burton, including education, positions, publications, and service."
 permalink: cv
 ---
 

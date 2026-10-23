@@ -1,0 +1,30 @@
+# Anthony Burton — Site Summary for AI Agents
+
+## Who
+Anthony Burton (also published as Anthony Glyn Burton). Postdoctoral researcher and lecturer in Critical Data & AI at the University of Amsterdam. Ph.D. in Communication from Simon Fraser University.
+
+## What I Research
+- Technofascism and Silicon Valley ideology
+- Platform temporalities and algorithmic reason
+- Mimesis, intelligence, and desire in late fascist politics
+- Misinformation, disinformation, and algorithmic authenticity
+
+## Key Work
+- **Book:** *Algorithmic Authenticity* (meson press, 2023) — open access at https://meson.press/books/algorithmic-authenticity/
+- **Dissertation:** *Fear of Mimesis: Technofascism and Intelligence in Silicon Valley*
+- **Publications:** See /publications for refereed articles, book chapters, and reports.
+
+## Where to Find Me
+- Website: https://anthbrtn.com/
+- ORCID: https://orcid.org/0000-0001-6474-0313
+- Google Scholar: https://scholar.google.com/citations?user=FxoLSjYAAAAJ
+- Twitter/X: https://twitter.com/anthbrtn
+- GitLab: https://gitlab.com/anthbrtn
+- Email: ab@anthbrtn.com
+
+## Site Navigation
+- /about — Biography and research focus
+- /publications — Refereed publications, books, reports
+- /presentations — Talks and presentations
+- /cv — Curriculum vitae
+- /contact — Contact information

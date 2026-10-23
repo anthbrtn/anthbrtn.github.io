@@ -4,7 +4,7 @@ url: "https://anthbrtn.com" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Anthony Burton"
-description: "Internet culture researcher"
+description: "Lecturer in Critical Data & AI at the University of Amsterdam; researcher on technofascism, platform temporalities, and algorithmic authenticity."
 
 # browser UI colour (mobile chrome)
 theme-color: "#000000"
@@ -13,9 +13,7 @@ theme-color: "#000000"
 author:
   name: Anthony Burton
   twitter: anthbrtn
-author-bio: "I am a lecturer in Critical Data & AI and a postdoctoral researcher in the Media Studies department at the University of Amsterdam. I finished my Ph.D. in Communication at Simon Fraser University, where I was a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute. My dissertation is about the relationship between social theory, intelligence, desire, and mimesis in contemporary late fascist politics.
-
-You can find more information in the menus above."
+author-bio: "Lecturer in Critical Data & AI and postdoctoral researcher at the University of Amsterdam. Ph.D. in Communication (SFU). Research focuses on technofascism, Silicon Valley ideology, platform temporalities, and algorithmic authenticity."
 #author-image: onepx.png  # file must be in the /assets/img/ folder
 
 # navigation menu

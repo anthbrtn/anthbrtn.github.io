@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Person","name":"Anthony Burton","alternateName":"Anthony Glyn Burton","url":"https://anthbrtn.com/","jobTitle":"Postdoctoral Researcher and Lecturer in Critical Data & AI","affiliation":{"@type":"Organization","name":"University of Amsterdam","url":"https://www.uva.nl/"},"sameAs":["https://orcid.org/0000-0001-6474-0313","https://scholar.google.com/citations?user=FxoLSjYAAAAJ","https://www.uva.nl/en/profile/b/u/a.g.burton/a.g.burton.html","https://www.linkedin.com/in/anthbrtn","https://gitlab.com/anthbrtn"]}
+    {"@context":"https://schema.org","@type":"Person","name":"Anthony Burton","alternateName":"Anthony Glyn Burton","url":"https://anthbrtn.com/","jobTitle":"Lecturer in Critical Data & AI and Postdoctoral Researcher","affiliation":{"@type":"Organization","name":"University of Amsterdam","url":"https://www.uva.nl/"},"sameAs":["https://orcid.org/0000-0001-6474-0313","https://scholar.google.com/citations?user=FxoLSjYAAAAJ","https://www.uva.nl/en/profile/b/u/a.g.burton/a.g.burton.html","https://gitlab.com/anthbrtn","https://twitter.com/anthbrtn"]}
   </script>
 </head>
 
@@ -25,11 +25,11 @@
       <div>
         <header class="mb-12">
           <div class="duotone mb-6">
-            <img src="{{ '/assets/img/ams.jpg' | relative_url }}" alt="{{ site.title }}" width="490" height="490">
+            <img src="{{ '/assets/img/ams.jpg' | relative_url }}" alt="Anthony Burton" width="490" height="490">
           </div>
-          <h1 class="font-mono font-bold text-3xl uppercase tracking-tighter leading-none m-0">
+          <h2 class="font-mono font-bold text-3xl uppercase tracking-tighter leading-none m-0">
             <a href="{{ '/' | relative_url }}" class="hover:bg-accent px-1 -mx-1 transition-colors">{{ site.title }}</a>
-          </h1>
+          </h2>
           <p class="font-mono text-xs uppercase text-gray-500 mt-2">{{ site.description }}</p>
         </header>
 
@@ -80,7 +80,7 @@
     <!-- Main Content -->
     <main class="content">
       <article class="prose prose-sm md:prose-base lg:prose-lg prose-headings:m-0{% if page.permalink == 'publications' %} pub{% endif %}">
-        {% if page.title and page.url != "/" %}
+        {% if page.title %}
         <h1 class="mb-8">{{ page.title }}</h1>
         {% endif %}
         {{ content }}

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Presentations
+description: "Talks, keynotes, and presentations by Anthony Burton on technofascism, platform studies, and algorithmic authenticity."
 permalink: presentations
 ---
 

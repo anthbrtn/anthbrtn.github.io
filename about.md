@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: "Biography and research focus of Anthony Burton: technofascism, Silicon Valley ideology, platform temporalities, and algorithmic authenticity."
 permalink: about
 ---
 

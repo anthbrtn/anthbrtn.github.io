@@ -1,0 +1,23 @@
+# Anthony Burton — Full Site Content for AI Agents
+
+## Identity
+Name: Anthony Burton (Anthony Glyn Burton)
+Role: Lecturer in Critical Data & AI; Postdoctoral Researcher, University of Amsterdam (Media Studies department).
+Education: Ph.D. Communication, Simon Fraser University; Mellon-SFU Data Fluencies Fellow, Digital Democracies Institute.
+
+## Bio
+I work on technofascism, Silicon Valley ideology, and platform temporalities. My dissertation, *Fear of Mimesis: Technofascism and Intelligence in Silicon Valley*, is about the relationship between social theory, intelligence, desire, and mimesis in contemporary late fascist politics.
+
+My most recent work is *Algorithmic Authenticity*, which investigates the role that authenticity plays in contemporary information disorders. You can find an open-access copy at https://meson.press/books/algorithmic-authenticity/.
+
+## Publications (Selected)
+- Burton, Anthony. 2026. “The Paranoid Style in Artificial Intelligence.” Journal of Illiberalism Studies (in press).
+- Burton, Anthony Glyn, Wendy Hui Kyong Chun and Liliana Bounegru, Melody Devries, Amy Harris, hannah holtzclaw, Ioana Jucan, Alex Juhasz, D. W. Kamish, Ganaele Langlois, Jasmine Proctor, Christine Tomlinson, Roopa Vasudevan, Esther Weltevrede. 2023. Algorithmic Authenticity. meson press, Leuphana.
+- See https://anthbrtn.com/publications for the full list.
+
+## Structured Data
+This site includes Schema.org Person JSON-LD at https://anthbrtn.com/ and links to authoritative profiles via ORCID, Google Scholar, and university directory pages.
+
+## Crawl Policy
+- robots.txt: Allow all
+- sitemap.xml: https://anthbrtn.com/sitemap.xml
