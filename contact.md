@@ -5,4 +5,4 @@ description: "Contact information for Anthony Burton: email and institutional af
 permalink: contact
 ---
 
-I can be reached at ab {at} anthbrtn {dot} com.
+I can be reached at ab [at] anthbrtn [dot] com.

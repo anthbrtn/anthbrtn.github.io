@@ -20,7 +20,7 @@ Anthony Burton (also published as Anthony Glyn Burton). Postdoctoral researcher 
 - Google Scholar: https://scholar.google.com/citations?user=FxoLSjYAAAAJ
 - Twitter/X: https://twitter.com/anthbrtn
 - GitLab: https://gitlab.com/anthbrtn
-- Email: ab@anthbrtn.com
+- Email: ab [at] anthbrtn [dot] com
 
 ## Site Navigation
 - /about — Biography and research focus
