@@ -9,12 +9,14 @@
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Anthony Burton" href="{{ '/feed.xml' | relative_url }}">
+  <meta name="google-site-verification" content="l8a5HPHBZfMWySP5scU_txDHuZWeVRauzv_8z5taE-U">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Person","name":"Anthony Burton","alternateName":"Anthony Glyn Burton","url":"https://anthbrtn.com/","jobTitle":"Lecturer in Critical Data & AI and Postdoctoral Researcher","affiliation":{"@type":"Organization","name":"University of Amsterdam","url":"https://www.uva.nl/"},"sameAs":["https://orcid.org/0000-0001-6474-0313","https://scholar.google.com/citations?user=FxoLSjYAAAAJ","https://www.uva.nl/en/profile/b/u/a.g.burton/a.g.burton.html","https://gitlab.com/anthbrtn","https://twitter.com/anthbrtn"]}
+    {"@context":"https://schema.org","@type":"Person","name":"Anthony Burton","alternateName":["Anthony Glyn Burton","A. Burton","Anthony Glyn"],"url":"https://anthbrtn.com/","jobTitle":"Postdoctoral Researcher and Lecturer","worksFor":{"@type":"Organization","name":"University of Amsterdam","url":"https://www.uva.nl/"},"affiliation":{"@type":"Organization","name":"University of Amsterdam","url":"https://www.uva.nl/"},"alumniOf":{"@type":"Organization","name":"Simon Fraser University","url":"https://www.sfu.ca/"},"knowsAbout":["technofascism","algorithmic reason","first principles thinking","red pill epistemology","blackpill science","critical algorithm studies","critical theory","media studies","alt-right","cyberlibertarianism","platform temporalities","algorithmic authenticity","Intellectual Dark Web","Silicon Valley ideology"],"sameAs":["https://orcid.org/0000-0001-6474-0313","https://scholar.google.com/citations?user=FxoLSjYAAAAJ","https://www.uva.nl/en/profile/b/u/a.g.burton/a.g.burton.html","https://gitlab.com/anthbrtn","https://twitter.com/anthbrtn"]}
   </script>
 </head>
 
@@ -45,34 +47,32 @@
 
       <div class="mt-12 space-y-6">
         <!-- Social Links -->
-        <div class="flex flex-wrap gap-2">
+        <nav class="flex flex-col space-y-1 font-mono text-xs uppercase">
           {% if site.twitterlink %}
-          <a href="{{ site.twitterlink }}"
-            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Twitter</a>
+          <a rel="me" href="{{ site.twitterlink }}"
+            class="hover:bg-accent px-1 -mx-1 transition-colors text-black no-underline">Twitter</a>
           {% endif %}
           {% if site.github %}
-          <a href="{{ site.github }}"
-            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">code</a>
+          <a rel="me" href="{{ site.github }}"
+            class="hover:bg-accent px-1 -mx-1 transition-colors text-black no-underline">GitLab</a>
           {% endif %}
           {% if site.google-scholar %}
-          <a href="{{ site.google-scholar }}"
-            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Scholar</a>
+          <a rel="me" href="{{ site.google-scholar }}"
+            class="hover:bg-accent px-1 -mx-1 transition-colors text-black no-underline">Scholar</a>
           {% endif %}
           {% if site.orcid %}
-          <a href="{{ site.orcid }}"
-            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">ORCID</a>
+          <a rel="me" href="{{ site.orcid }}"
+            class="hover:bg-accent px-1 -mx-1 transition-colors text-black no-underline">ORCID</a>
           {% endif %}
           {% if site.email %}
-          <a href="{{ site.email }}"
-            class="border-2 border-black p-2 hover:bg-accent transition-all text-black font-mono text-xs uppercase no-underline">Email</a>
+          <a rel="me" href="{{ site.email }}"
+            class="hover:bg-accent px-1 -mx-1 transition-colors text-black no-underline">Email</a>
           {% endif %}
-        </div>
+        </nav>
 
         <!-- Footer/Bio snippet in sidebar -->
         <div class="font-mono text-[10px] uppercase leading-relaxed text-gray-600 border-t-2 border-black pt-4">
-          &copy; {{ "now" | date: "%Y" }} {{ site.title }}<br>
-          Lecturer in Critical Data & AI<br>
-          University of Amsterdam
+          &copy; {{ "now" | date: "%Y" }} {{ site.title }}
         </div>
       </div>
     </aside>

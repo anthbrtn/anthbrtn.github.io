@@ -12,11 +12,15 @@ My most recent work is *Algorithmic Authenticity*, which investigates the role t
 
 ## Publications (Selected)
 - Burton, Anthony. 2026. “The Paranoid Style in Artificial Intelligence.” Journal of Illiberalism Studies (in press).
+- Burton, Anthony. 2026. “First principles and algorithmic reason in technofascism.” Navigationen. Zeitschrift für Medien- und Kulturwissenschaften 26(2): 127–142. DOI 10.5281/zenodo.24209942 (open access). Issue DOI 10.25819/ubsi/11107.
+- Burton, Anthony. "Blackpill Science: Involuntary Celibacy, Rational Technique, and Economic Existence under Neoliberalism." Canadian Journal of Communication 47(4): 676–701, 2022. DOI 10.3138/cjc.2022-07-25.
+- Burton, Anthony. 2025. *Fear of mimesis: Technofascism and intelligence in Silicon Valley*. PhD dissertation, Simon Fraser University. https://summit.sfu.ca/item/39969.
 - Burton, Anthony Glyn, Wendy Hui Kyong Chun and Liliana Bounegru, Melody Devries, Amy Harris, hannah holtzclaw, Ioana Jucan, Alex Juhasz, D. W. Kamish, Ganaele Langlois, Jasmine Proctor, Christine Tomlinson, Roopa Vasudevan, Esther Weltevrede. 2023. Algorithmic Authenticity. meson press, Leuphana.
 - See https://anthbrtn.com/publications for the full list.
+- Full dissertation text (HTML): https://anthbrtn.com/dissertation
 
 ## Structured Data
-This site includes Schema.org Person JSON-LD at https://anthbrtn.com/ and links to authoritative profiles via ORCID, Google Scholar, and university directory pages.
+This site includes Schema.org Person JSON-LD at https://anthbrtn.com/.
 
 ## Crawl Policy
 - robots.txt: Allow all

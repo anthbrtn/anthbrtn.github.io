@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Anthony Burton</title>
+    <link>https://anthbrtn.com/publications</link>
+    <description>New research from Anthony Burton — lecturer in Critical Data &amp; AI at the University of Amsterdam.</description>
+    <language>en-us</language>
+    <atom:link href="https://anthbrtn.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>First principles and algorithmic reason in technofascism</title>
+      <link>https://doi.org/10.5281/zenodo.24209942</link>
+      <guid>https://doi.org/10.5281/zenodo.24209942</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Anthony Burton</dc:creator>
+      <description>Anthony Burton, “First principles and algorithmic reason in technofascism,” Navigationen. Zeitschrift für Medien- und Kulturwissenschaften 26(2): 127–142, special issue Technofascism (eds. Laura Hille, Felix Hüttemann and Milan Stürmer). doi:10.5281/zenodo.24209942; issue DOI 10.25819/ubsi/11107.</description>
+    </item>
+    <item>
+      <title>Fear of mimesis: Technofascism and intelligence in Silicon Valley</title>
+      <link>https://summit.sfu.ca/item/39969</link>
+      <guid>https://summit.sfu.ca/item/39969</guid>
+      <pubDate>Thu, 20 Aug 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Anthony Burton</dc:creator>
+      <description>PhD dissertation, School of Communication, Simon Fraser University. Technofascism as intelligence, mimesis, and desire in Silicon Valley ideology.</description>
+    </item>
+    <item>
+      <title>Algorithmic Authenticity</title>
+      <link>https://meson.press/books/algorithmic-authenticity/</link>
+      <guid>https://meson.press/books/algorithmic-authenticity/</guid>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 GMT</pubDate>
+      <dc:creator>Anthony Burton</dc:creator>
+      <description>Burton, Chun, Bounegru et al. Algorithmic Authenticity. meson press, Leuphana, 2023. Open access.</description>
+    </item>
+    <item>
+      <title>Blackpill Science: Involuntary Celibacy, Rational Technique, and Economic Existence under Neoliberalism</title>
+      <link>https://doi.org/10.3138/cjc.2022-07-25</link>
+      <guid>https://doi.org/10.3138/cjc.2022-07-25</guid>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
+      <dc:creator>Anthony Burton</dc:creator>
+      <description>Canadian Journal of Communication 47(4): 676–701, 2022. doi:10.3138/cjc.2022-07-25.</description>
+    </item>
+  </channel>
+</rss>

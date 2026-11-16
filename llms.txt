@@ -11,7 +11,7 @@ Anthony Burton (also published as Anthony Glyn Burton). Postdoctoral researcher 
 
 ## Key Work
 - **Book:** *Algorithmic Authenticity* (meson press, 2023) — open access at https://meson.press/books/algorithmic-authenticity/
-- **Dissertation:** *Fear of Mimesis: Technofascism and Intelligence in Silicon Valley*
+- **Dissertation:** *Fear of Mimesis: Technofascism and Intelligence in Silicon Valley* — full text HTML at https://anthbrtn.com/dissertation (official record: https://summit.sfu.ca/item/39969)
 - **Publications:** See /publications for refereed articles, book chapters, and reports.
 
 ## Where to Find Me
@@ -28,3 +28,5 @@ Anthony Burton (also published as Anthony Glyn Burton). Postdoctoral researcher 
 - /presentations — Talks and presentations
 - /cv — Curriculum vitae
 - /contact — Contact information
+- /fear-of-mimesis — The dissertation
+- /dissertation — Full dissertation text, per chapter

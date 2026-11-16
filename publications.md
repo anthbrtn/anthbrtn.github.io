@@ -11,6 +11,14 @@ A current list is also on [Google Scholar](https://scholar.google.com/citations?
 {"@context":"https://schema.org","@type":"Book","name":"Algorithmic Authenticity","author":[{"@type":"Person","name":"Anthony Glyn Burton"},{"@type":"Person","name":"Wendy Hui Kyong Chun"},{"@type":"Person","name":"Liliana Bounegru"},{"@type":"Person","name":"Melody Devries"},{"@type":"Person","name":"Amy Harris"},{"@type":"Person","name":"hannah holtzclaw"},{"@type":"Person","name":"Ioana Jucan"},{"@type":"Person","name":"Alex Juhasz"},{"@type":"Person","name":"D. W. Kamish"},{"@type":"Person","name":"Ganaele Langlois"},{"@type":"Person","name":"Jasmine Proctor"},{"@type":"Person","name":"Christine Tomlinson"},{"@type":"Person","name":"Roopa Vasudevan"},{"@type":"Person","name":"Esther Weltevrede"}],"datePublished":"2023","publisher":{"@type":"Organization","name":"meson press","location":"Leuphana"},"description":"Investigates the role that authenticity plays in contemporary information disorders, examining fact-checking, liberal democracy, and digital subjecthood.","url":"https://meson.press/books/algorithmic-authenticity/"}
 </script>
 
+# Books
+
+Burton, Anthony Glyn, Wendy Hui Kyong Chun, Liliana Bounegru, Melody Devries, Amy Harris, hannah holtzclaw, Ioana Jucan, Alex Juhasz, D. W. Kamish, Ganaele Langlois, Jasmine Proctor, Christine Tomlinson, Roopa Vasudevan, and Esther Weltevrede. 2023. *Algorithmic Authenticity: An Overview*. Lüneburg: meson press. Open access: [meson.press/books/algorithmic-authenticity](https://meson.press/books/algorithmic-authenticity/).
+
+# Dissertations
+
+Burton, Anthony Glyn. 2025. *Fear of mimesis: Technofascism and intelligence in Silicon Valley*. PhD dissertation, Simon Fraser University. https://summit.sfu.ca/item/39969.
+
 # Refereed Publications
 
 ## 2026
@@ -18,7 +26,7 @@ A current list is also on [Google Scholar](https://scholar.google.com/citations?
 Burton, Anthony. 2026. “The Paranoid Style in Artificial Intelligence.” *Journal of Illiberalism
 Studies* (in press).
 
-———. 2026. “First principles and algorithmic reason in technofascism.” *Navigationen* 26 (2): 127–42.
+———. 2026. “First principles and algorithmic reason in technofascism.” *Navigationen* 26 (2): 127–42. https://doi.org/10.5281/zenodo.24209942
 
 ——— and Esther Weltevrede. 2026. “App Time: The Dual-Layered Logic of Appification.”
 *International Journal of Communication* 20: 1780–98.
@@ -31,15 +39,7 @@ Authenticity—Introduction.” *International Journal of Communication* 20: 174
 
 ## 2023
 
-Burton, Anthony Glyn, Wendy Hui Kyong Chun and Liliana Bounegru, Melody Devries, Amy Harris, hannah holtzclaw, Ioana Jucan, Alex Juhasz,
-D. W. Kamish, Ganaele Langlois, Jasmine Proctor, Christine Tomlinson, Roopa Vasudevan,
-Esther Weltevrede. 2023. *Algorithmic Authenticity*. meson
-press, Leuphana.
-
-Burton, Anthony Glyn. 2023. "When misinformation migrates: Cross-platform posting, YouTube, and
-the deep vernacular web". In Rogers, Richard ed. *The Propagation of Misinformation in Social Media
-A Cross-platform Analysis*. Amsterdam University
-Press.
+Burton, Anthony Glyn. 2023. “When misinformation migrates: Cross-platform posting, YouTube, and the deep vernacular web.” In *The Propagation of Misinformation in Social Media: A Cross-Platform Analysis*, edited by Richard Rogers, 67–82. Amsterdam: Amsterdam University Press.
 
 ## 2022
 
@@ -50,9 +50,7 @@ far-right media." *First Monday* 27 (9). [https://doi.org/10.5210/fm.v27i5.12546
 
 ## 2021
 
-Burton, Anthony Glyn. 2021. \"Wojak's lament: Memetic excess and the NPC
-under network capitalism\". *Critical Meme Reader: Global Mutations of the Viral Image*. 
-[https://networkcultures.org/blog/publication/critical-meme-reader-global-mutations-of-the-viral-image/](https://networkcultures.org/blog/publication/critical-meme-reader-global-mutations-of-the-viral-image/).
+Burton, Anthony Glyn. 2021. “Wojak's lament: Memetic excess and the NPC under network capitalism.” In *Critical Meme Reader: Global Mutations of the Viral Image*, edited by Chloë Arkenbout, Jack Wilson and Daniel de Zeeuw. Amsterdam: Institute of Network Cultures. [Open access](https://networkcultures.org/blog/publication/critical-meme-reader-global-mutations-of-the-viral-image/).
 
 Tuters, Marc, and Anthony G. Burton. 2021. "The Rebel Yell: On YouTube's
 Burlesque Traditonalists and Their Alt-Right Audiences." *Canadian
@@ -76,23 +74,23 @@ Media + Society 7* (3): 20563051211035356.
 ## 2020
 
 Elmer, Greg, Sabrina Ward-Kimola, & Anthony Glyn Burton. 2020.
-\"Crowdfunding during COVID-19: An international comparison of online
-fundraising.\" *First Monday*, 25(11).
+"Crowdfunding during COVID-19: An international comparison of online
+fundraising." *First Monday*, 25(11).
 <https://firstmonday.org/ojs/index.php/fm/article/view/10869>
 
-Burton, Anthony Glyn and Dimitri Koehorst. 2020. \"The Spread of
-Political Misinformation on Online Subcultural Platforms\". *Harvard
+Burton, Anthony Glyn and Dimitri Koehorst. 2020. "The Spread of
+Political Misinformation on Online Subcultural Platforms". *Harvard
 Misinformation Review*.
 <https://misinforeview.hks.harvard.edu/article/research-note-the-spread-of-political-misinformation-on-online-subcultural-platforms/>.
 
 ## Older
 
-Burton, Anthony Glyn. 2019. \"Being in/of the Network: The Chad Meme as
-Digital Subject\". *To Be Decided: Journal of Interdisciplinary Theory*.
+Burton, Anthony Glyn. 2019. "Being in/of the Network: The Chad Meme as
+Digital Subject". *To Be Decided: Journal of Interdisciplinary Theory*.
 4 (2): 8.
 
----. 2016. \"The Production of Society: Social Cohesion, Newspapers, and
-Social Media\". *ImagiNATIONS* 4 (1): 57--70.
+---. 2016. "The Production of Society: Social Cohesion, Newspapers, and
+Social Media". *ImagiNATIONS* 4 (1): 57--70.
 
 # Book Reviews
 
@@ -111,8 +109,8 @@ Culture](https://quillandquire.com/review/getting-a-life-the-social-worlds-of-ge
 # Edited Journal Volumes
 
 Co-editor (with Wendy Chun, Ganaele Langlois, Alberto Lusoli, and Esther
-Weltevrede), \"Beyond Verification: Mis/Disinformation and the Artifices of
-Authenticity.\" Special issue, *International Journal of Communication*. 2026.
+Weltevrede), "Beyond Verification: Mis/Disinformation and the Artifices of
+Authenticity." Special issue, *International Journal of Communication*. 2026.
 
 # Reports
 
@@ -126,13 +124,13 @@ Election." OSF Preprints. June 8. doi:10.31219/osf.io/ubfmx.
 de Keulenaar, Emillie, Ivan Kisjes. Anthony G. Burton, Jasper van der
 Heide, Dieuwertje Luitse, Eleonora Cappuccio, Guilherme Appolinário,
 Narzanin Massoumi, Tom Mills, Amy Harris, Jörn Preuß. 2020. "Demoting,
-deplatforming and replatforming COVID-19 misinformation\". *Digital
+deplatforming and replatforming COVID-19 misinformation". *Digital
 Methods Institute Summer School* Project Report. University of
 Amsterdam, July 30.
 
 Elmer, Greg, Ganaele Langlois, Marc Tuters, Melody Devries, Steven J.
-Neville, Anthony G. Burton & Sabrina Ward-Kimola. 2020. \"Fringe
-Politics: The Deep Web's Impact on the Canadian Election\", Report for
+Neville, Anthony G. Burton & Sabrina Ward-Kimola. 2020. "Fringe
+Politics: The Deep Web's Impact on the Canadian Election", Report for
 Digital Ecosystem, Research Project, Heritage Canada.
 
 Burton, Anthony G., Ivana Škoro, Henri Mütschele, Myrthe Reuver, and
@@ -170,3 +168,11 @@ Burton, Anthony Glyn. 2018. [\'X.
 Why?\'](https://theoutline.com/post/4919/x-why-does-tech-love-the-letter-x).
 *The Outline*, June 13.
 
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"ScholarlyArticle","name":"First principles and algorithmic reason in technofascism","author":{"@type":"Person","name":"Anthony Burton","url":"https://anthbrtn.com/"},"datePublished":"2026","isPartOf":{"@type":"Periodical","name":"Navigationen. Zeitschrift für Medien- und Kulturwissenschaften","issueNumber":"26","issn":"1619-1641"},"pagination":"127-142","sameAs":"https://doi.org/10.5281/zenodo.24209942","keywords":["technofascism","algorithmic reason","first principles thinking","Californian ideology","artificial intelligence","critical algorithm studies"]},
+ {"@type":"ScholarlyArticle","name":"Blackpill Science: Involuntary Celibacy, Rational Technique, and Economic Existence under Neoliberalism","author":{"@type":"Person","name":"Anthony Burton","url":"https://anthbrtn.com/"},"datePublished":"2022","isPartOf":{"@type":"Periodical","name":"Canadian Journal of Communication","volumeNumber":"47","issueNumber":"4","issn":"0718-2051"},"pagination":"676-701","sameAs":"https://doi.org/10.3138/cjc.2022-07-25","keywords":["blackpill science","incel","manosphere","neoliberalism","critical algorithm studies"]},
+ {"@type":"ScholarlyArticle","name":"Fear of mimesis: Technofascism and intelligence in Silicon Valley","author":{"@type":"Person","name":"Anthony Burton","alternateName":"Anthony Glyn Burton","url":"https://anthbrtn.com/"},"datePublished":"2025","sameAs":"https://summit.sfu.ca/item/39969","keywords":["technofascism","critical theory","critical algorithm studies","media studies","alt-right","cyberlibertarianism"]}
+]}
+</script>

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Anthony Burton
-description: "Lecturer in Critical Data & AI at the University of Amsterdam. Researcher on technofascism, Silicon Valley ideology, platform temporalities, and algorithmic authenticity."
+description: "Postdoctoral researcher and lecturer at the University of Amsterdam."
 permalink: /
 ---
 
-Anthony Burton is a lecturer in Critical Data & AI and a postdoctoral researcher in the Media Studies department at the University of Amsterdam. His research examines technofascism, Silicon Valley ideology, platform temporalities, and algorithmic authenticity.
+Anthony Burton is a postdoctoral researcher and lecturer in the Media Studies department at the University of Amsterdam. His research examines technofascism, Silicon Valley ideology, platform temporalities, and algorithmic authenticity.
 
 He finished his Ph.D. in Communication at Simon Fraser University, where he was a Mellon-SFU Data Fluencies Fellow at the Digital Democracies Institute. His dissertation, *Fear of Mimesis: Technofascism and Intelligence in Silicon Valley*, explores the relationship between social theory, intelligence, desire, and mimesis in contemporary late fascist politics.
 

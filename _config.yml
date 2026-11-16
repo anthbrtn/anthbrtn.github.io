@@ -4,7 +4,7 @@ url: "https://anthbrtn.com" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Anthony Burton"
-description: "Lecturer in Critical Data & AI at the University of Amsterdam; researcher on technofascism, platform temporalities, and algorithmic authenticity."
+description: "Postdoctoral researcher and lecturer at the University of Amsterdam."
 
 # browser UI colour (mobile chrome)
 theme-color: "#000000"
@@ -13,7 +13,7 @@ theme-color: "#000000"
 author:
   name: Anthony Burton
   twitter: anthbrtn
-author-bio: "Lecturer in Critical Data & AI and postdoctoral researcher at the University of Amsterdam. Ph.D. in Communication (SFU). Research focuses on technofascism, Silicon Valley ideology, platform temporalities, and algorithmic authenticity."
+author-bio: "Postdoctoral researcher and lecturer in media studies at the University of Amsterdam. Ph.D. in Communication (SFU)."
 #author-image: onepx.png  # file must be in the /assets/img/ folder
 
 # navigation menu
