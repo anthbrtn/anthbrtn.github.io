@@ -5,7 +5,7 @@ description: "Fear of mimesis: Technofascism and intelligence in Silicon Valley 
 permalink: /dissertation
 ---
 
-**Fear of mimesis: Technofascism and intelligence in Silicon Valley** (School of Communication, Faculty of Communication, Art and Technology, Simon Fraser University, 2025). The official record is held by SFU Summit: [summit.sfu.ca/item/39969](https://summit.sfu.ca/item/39969). This page reproduces the full text.
+**Fear of mimesis: Technofascism and intelligence in Silicon Valley**. School of Communication, Faculty of Communication, Art and Technology, Simon Fraser University, 2025. SFU Summit: [summit.sfu.ca/item/39969](https://summit.sfu.ca/item/39969).
 
 ## Contents
 
